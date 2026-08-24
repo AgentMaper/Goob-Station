@@ -1,12 +1,6 @@
-- type: zMap
-  id: ZNebulaStation
-  maps:
-  - /Maps/_Pirate/ZNebula/ZNebula0.yml # depth 0
-  - /Maps/_Pirate/ZNebula/ZNebula1.yml # depth 1
-
 - type: gameMap
-  id: ZNebulaStation
-  mapName: ZNebula
+  id: ZNebula
+  mapName: ZNebulaStation
   mapPath: /Maps/_Pirate/ZNebula/ZNebula0.yml
   minPlayers: 0
   stations:
