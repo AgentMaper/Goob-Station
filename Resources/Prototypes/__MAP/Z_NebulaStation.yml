@@ -1,0 +1,24 @@
+- type: zMap
+  id: ZNebulaStation
+  maps:
+  - /Maps/_Pirate/ZNebula/ZNebula0.yml # depth 0
+  - /Maps/_Pirate/ZNebula/ZNebula1.yml # depth 1
+
+- type: gameMap
+  id: ZNebulaStation
+  mapName: ZNebula
+  mapPath: /Maps/_Pirate/ZNebula/ZNebula0.yml
+  minPlayers: 0
+  stations:
+    Empty:
+      stationProto: StandardNanotrasenStation
+      components:
+      - type: StationNameSetup
+        mapNameTemplate: "ZNebula"
+      - type: StationJobs
+        availableJobs:
+          #service
+          Captain: [ 1, 1 ]
+      - type: CEStationZLevels
+        mapsAbove:
+        - /Maps/_Pirate/ZNebula/ZNebula1.yml
