@@ -103196,15 +103196,6 @@ entities:
     - type: Transform
       pos: -5.5,38.5
       parent: 2
-- proto: RandomVendingMedicalWall
-  entities:
-  - uid: 10260
-    components:
-    - type: Transform
-      pos: 23.5,-27.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
 - proto: RandomVendingSnacks
   entities:
   - uid: 8114

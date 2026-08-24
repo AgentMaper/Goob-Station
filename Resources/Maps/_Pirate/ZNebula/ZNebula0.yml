@@ -105688,22 +105688,6 @@ entities:
     - type: Transform
       pos: -30.5,25.5
       parent: 2
-- proto: RandomVendingMedicalWall
-  entities:
-  - uid: 12711
-    components:
-    - type: Transform
-      pos: 25.5,-22.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
-  - uid: 15437
-    components:
-    - type: Transform
-      pos: -20.5,45.5
-      parent: 2
-    - type: Fixtures
-      fixtures: {}
 - proto: RandomVendingSnacks
   entities:
   - uid: 2954
